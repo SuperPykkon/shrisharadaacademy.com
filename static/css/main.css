@@ -108,7 +108,7 @@ body {
 }
 
 .main > section#contact > .container {
-	  height: calc(100% - 59.53px);
+	  height: calc(100% - 50px);
 		margin: 0;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 #footer > .header {
-    padding: 2% 4%;
+    padding: 16px 4%;
     background-color: #e9eaea;
 }
 
