@@ -1,1 +1,1 @@
-# shrisharadaacademy.github.io
+# shrisharadaacademy.com
