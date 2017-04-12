@@ -136,8 +136,7 @@ body {
 		color: #b9b9b9;
 }
 
-#footer > .header {
-    padding: 16px 4%;
+#footer {
     background-color: #e9eaea;
 }
 
@@ -155,5 +154,9 @@ body {
 		}
 	  .main > section#contact, .main > section#contact > .container {
 			  height: auto;
+		}
+			.main > section#contact > #footer > .container > .column.right.aligned {
+			  display: flex;
+				justify-content: center;
 		}
 }
