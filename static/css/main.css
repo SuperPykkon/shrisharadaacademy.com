@@ -14,6 +14,18 @@ body {
 		background-position: center center;
 }
 
+h1.ui.header {
+	  color: #A4A5A5 !important;
+		font-family: Nunito !important;
+		font-weight: 300 !important;
+}
+
+hr {
+	  height: 1px !important;
+		background: #ccc;
+		border: 0;
+}
+
 .main > section {
 	  width: 100%;
 		height: 100%;
@@ -92,12 +104,27 @@ body {
 
 .main > section#keyfeatures > .container > .list > .item > i {
 	  font-size: 2em;
+		color: #0b9ee9;
 }
 
 .main > section#keyfeatures > .container > .list > .item > div {
-		font-size: 1.5em;
-		font-weight: 100;
 		margin-top: 4%;
+		font-size: 18px;
+		font-weight: 100;
+		font-family: Nunito;
+		color: #A4A5A5 !important;
+}
+
+.main > section#stayintouch > .container > .ui.small.images {
+	  display: flex;
+		justify-content: center;
+		margin-top: 32px;
+}
+
+.main > section#stayintouch > .container > .ui.small.images > a > img {
+	  width: 64px;
+		height: 64px;
+		margin: 0 32px;
 }
 
 .main > section#contact {
