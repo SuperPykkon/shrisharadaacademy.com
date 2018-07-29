@@ -154,7 +154,7 @@ hr {
 		font-size: 1.2em;
 }
 
-.main > section#contact > .container > .column > .contactd > i {
+.main > section#contact > .container > .column > .contactd > i, .main > section#contact > .container > .column > .contactd > div > i {
     font-size: 22px;
 		margin-right: 16px;
 		color: #b9b9b9;
@@ -164,6 +164,26 @@ hr {
     background-color: #e9eaea;
 }
 
+
+@media only screen and (max-width: 288px) {
+		.main > section#keyfeatures > .container > .list > .item {
+				width: 100% !important;
+				margin: 24px 0;
+		}
+		.ui.container {
+			  padding: 0 !important;
+				margin: 0 !important;
+		}
+}
+@media only screen and (max-width: 786px) {
+		.main > section#contact > .grid.container {
+			  display: block !important;
+		}
+	  .main > section#contact > .grid.container > .eight.wide.column {
+				width: 100% !important;
+				text-align: center;
+		}
+}
 @media only screen and (max-width: 1280px) {
 	  .main > section#keyfeatures > .container > .list > .item {
 			  width: 49.2%;
